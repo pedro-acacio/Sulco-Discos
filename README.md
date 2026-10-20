@@ -1,27 +1,27 @@
 # Sulco Discos & Bar — Landing Page
 
-Landing page em React para a "Sulco Discos & Bar", uma loja de discos de vinil fictícia (com bar integrado) em São Paulo. O projeto é um modelo de apresentação: marca, endereço, telefone e avaliações são inventados, criado para mostrar a lojas de discos reais como ficaria uma landing page seguindo essa mesma estrutura visual (tema vinil, paleta escura/creme, tipografia serifada + mono).
+React landing page for "Sulco Discos & Bar", a fictional vinyl record store (with a built-in bar) in São Paulo. The project is a showcase template: the brand, address, phone number and reviews are made up. It was created to show real record stores what a landing page following this same visual structure would look like (vinyl theme, dark/cream palette, serif + mono typography).
 
-Traz seções de sobre, catálogo por gênero musical (rock, MPB, bossa nova, jazz, soul/funk/disco, trilhas sonoras, hip hop, eletrônica, lançamentos), diferenciais, galeria, localização (mapa embutido) e contato com formulário que abre o WhatsApp.
+It includes sections for about, a catalog by music genre (rock, MPB, bossa nova, jazz, soul/funk/disco, soundtracks, hip hop, electronic, new releases), differentiators, gallery, location (embedded map) and contact with a form that opens WhatsApp.
 
-## Tecnologias
+## Technologies
 
 - React 18 + Vite
 - Tailwind CSS
-- Ícones: [lucide-react](https://lucide.dev/)
+- Icons: [lucide-react](https://lucide.dev/)
 
 ## Deploy
 
 https://sulco-discos.vercel.app
 
-## Como rodar localmente
+## Running locally
 
-O código-fonte fica dentro da pasta `sulco-discos-site`.
+The source code lives in the `sulco-discos-site` folder.
 
 ```bash
 cd sulco-discos-site
 npm install
-npm run dev       # ambiente de desenvolvimento
-npm run build     # build de produção
-npm run preview   # serve o build de produção localmente
+npm run dev       # development environment
+npm run build     # production build
+npm run preview   # serves the production build locally
 ```
