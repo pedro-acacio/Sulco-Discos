@@ -1,31 +1,31 @@
-# Sulco Discos — Landing Page (modelo)
+# Sulco Discos — Landing Page (template)
 
-Projeto React + Vite + Tailwind, pronto para GitHub e Vercel.
+React + Vite + Tailwind project, ready for GitHub and Vercel.
 
-## Rodar localmente
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Publicar no GitHub
+## Publish to GitHub
 
 ```bash
 git init
 git add .
 git commit -m "landing page sulco discos"
 git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPO.git
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
 git push -u origin main
 ```
 
-## Publicar na Vercel
+## Publish to Vercel
 
-1. Acesse vercel.com e faça login com sua conta do GitHub.
-2. Clique em "Add New" → "Project".
-3. Selecione o repositório que você acabou de subir.
-4. A Vercel detecta automaticamente que é um projeto Vite (Framework Preset: Vite).
-5. Clique em "Deploy" — pronto, em ~1 minuto você tem uma URL pública.
+1. Go to vercel.com and log in with your GitHub account.
+2. Click "Add New" → "Project".
+3. Select the repository you just pushed.
+4. Vercel automatically detects that it's a Vite project (Framework Preset: Vite).
+5. Click "Deploy" — that's it, in about a minute you'll have a public URL.
 
-Toda vez que você der `git push` no `main`, a Vercel atualiza o site sozinha.
+Every time you `git push` to `main`, Vercel updates the site automatically.
